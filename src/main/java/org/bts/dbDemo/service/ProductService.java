@@ -12,6 +12,7 @@ public class ProductService {
 	
 	public Products addNewProduct(Products products) {
 		return repo.save(products);
+		// insert into products (productid, name, price, qty) values (products.getProductid, products.getName, products.getPrice, products.getqty)
 	}
 
 }

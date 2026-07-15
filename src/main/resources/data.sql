@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS ecommerce;
+SET SCHEMA ecommerce;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
